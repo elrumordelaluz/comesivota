@@ -21,6 +21,12 @@
   composes: text from './components.module.css';
 }
 
+.link {
+  composes: link from './layout.module.css';
+  display: inline-block;
+  margin-top: 1em;
+}
+
 .countdown {
   display: flex;
   width: 100%;

@@ -6,6 +6,7 @@ import schedaSimboloNome from '../public/img/scheda_nome_e_simbolo.png'
 import schedaSimboloElenco from '../public/img/scheda_simbolo_elenco.png'
 import schedaNulla from '../public/img/scheda_nulla.png'
 import styles from '../styles/home.module.css'
+import Link from 'next/link'
 
 const Countdown = dynamic(() => import('./Countdown'), {
   ssr: false,
@@ -138,6 +139,42 @@ export default function Home() {
               il candidato non è collegato, il voto risulta nullo
             </small>
           </p>
+        </div>
+
+        <div className={styles.section}>
+          <h2 className={styles.subtitle}>Approfondimenti</h2>
+
+          <p className={styles.text}>
+            Di seguito alcuni link dove consultare le fonti delle informazioni
+            presenti su questa pagina oltre a diversi approfondimenti.
+          </p>
+
+          <a
+            href="https://dait.interno.gov.it/elezioni/trasparenza/elezioni-politiche-2022"
+            target="_blank"
+            rel="noopener noreferrer"
+            className={styles.link}
+          >
+            Elezioni trasparenti (DAIT)
+          </a>
+          <br />
+          <a
+            href="https://dait.interno.gov.it/elezioni/faq-elezioni-politiche-2022"
+            target="_blank"
+            rel="noopener noreferrer"
+            className={styles.link}
+          >
+            FAQ. Elezioni politiche 2022 (DAIT)
+          </a>
+          <br />
+          <a
+            href="https://elezioni.interno.gov.it/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className={styles.link}
+          >
+            Eligendo. Il sistema integrato di diffusione dei dati elettorali
+          </a>
         </div>
       </div>
     </div>
