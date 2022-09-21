@@ -28,7 +28,6 @@ const renderer = ({ hours, minutes, seconds, days, completed }) => {
       </p>
     )
   } else {
-    // Render a countdown
     return (
       <>
         <div className={styles.countdown}>
@@ -50,7 +49,12 @@ const renderer = ({ hours, minutes, seconds, days, completed }) => {
           </div>
         </div>
         <p className={styles.text}>
-          Si vota domenica 25 settembre 2022, <br />
+          Si vota
+          <br />
+          <strong style={{ fontSize: '1.2em' }}>
+            <u>solo domenica</u> 25 settembre 2022
+          </strong>
+          , <br />
           <strong>dalle ore 7 alle ore 23</strong>
         </p>
       </>

@@ -29,22 +29,20 @@ export default function Home() {
       <div className={styles.section}>
         <h2 className={styles.subtitle}>Chi può votare?</h2>
         <p className={styles.text}>
-          Tutti i cittadini italiani che abbiano{' '}
-          <strong>compiuto i 18 anni al 25 settembre</strong> e che godano dei
-          diritti civili e politici.
+          Puoi votare se hai la cittadinanza italiana e
+          <br /> hai <strong>compiuto i 18 anni entro il 25 settembre</strong>.
         </p>
       </div>
 
       <div className={styles.section}>
-        <h2 className={styles.subtitle}>Che documenti servono per votare?</h2>
+        <h2 className={styles.subtitle}>Cosa devi portare per votare?</h2>
         <p className={styles.text}>
           La <strong>tessera elettorale</strong> e un{' '}
           <strong>documento di identità</strong>.
         </p>
         <p className={styles.text}>
           <small>
-            Il documento è valido anche se scaduto. La tessera elettorale deve
-            avere almeno uno spazio disponibile per apporre il timbro del voto.
+            La matita da utilizzare è fornita dal personale presente nel seggio.
           </small>
         </p>
       </div>
@@ -52,7 +50,8 @@ export default function Home() {
       <div className={styles.section}>
         <h2 className={styles.subtitle}>È obbligatorio andare a votare? </h2>
         <p className={styles.text}>
-          No, il voto non è un dovere, ma <strong>un diritto</strong>.
+          No, il voto non è un dovere, ma{' '}
+          <strong style={{ fontSize: '1.2em' }}>un diritto</strong>.
         </p>
       </div>
 
@@ -69,7 +68,6 @@ export default function Home() {
         </p>
       </div>
       <div className={styles.section}>
-        <p className={styles.text}>In ogni scheda</p>
         <h2 className={styles.subtitle}>
           Si deve tracciare <strong>una sola &quot;x&quot;</strong>{' '}
         </h2>
