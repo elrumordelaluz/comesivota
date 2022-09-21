@@ -1,5 +1,5 @@
 import Image from 'next/image'
-import CountdownComponent from './Countdown'
+import dynamic from 'next/dynamic'
 import schedaNome from '../public/img/scheda_nome.png'
 import schedaSimbolo from '../public/img/scheda_simbolo.png'
 import schedaSimboloNome from '../public/img/scheda_nome_e_simbolo.png'
@@ -7,11 +7,15 @@ import schedaSimboloElenco from '../public/img/scheda_simbolo_elenco.png'
 import schedaNulla from '../public/img/scheda_nulla.png'
 import styles from '../styles/home.module.css'
 
+const Countdown = dynamic(() => import('./Countdown'), {
+  ssr: false,
+})
+
 export default function Home() {
   return (
     <div className={styles.wrapper}>
       <div className={styles.section}>
-        <CountdownComponent />
+        <Countdown />
       </div>
 
       <div className={styles.section}>
