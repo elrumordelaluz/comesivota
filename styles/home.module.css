@@ -27,6 +27,13 @@
   margin-top: 1em;
 }
 
+.icon {
+  width: 1em;
+  height: 1em;
+  margin-right: 0.5em;
+  vertical-align: middle;
+}
+
 .countdown {
   display: flex;
   width: 100%;

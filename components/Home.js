@@ -6,7 +6,7 @@ import schedaSimboloNome from '../public/img/scheda_nome_e_simbolo.png'
 import schedaSimboloElenco from '../public/img/scheda_simbolo_elenco.png'
 import schedaNulla from '../public/img/scheda_nulla.png'
 import styles from '../styles/home.module.css'
-import Link from 'next/link'
+import ShareIcon from './icons/Share'
 
 const Countdown = dynamic(() => import('./Countdown'), {
   ssr: false,
@@ -153,6 +153,7 @@ export default function Home() {
             rel="noopener noreferrer"
             className={styles.link}
           >
+            <ShareIcon className={styles.icon} />
             Elezioni trasparenti (DAIT)
           </a>
           <br />
@@ -162,6 +163,7 @@ export default function Home() {
             rel="noopener noreferrer"
             className={styles.link}
           >
+            <ShareIcon className={styles.icon} />
             FAQ. Elezioni politiche 2022 (DAIT)
           </a>
           <br />
@@ -171,6 +173,7 @@ export default function Home() {
             rel="noopener noreferrer"
             className={styles.link}
           >
+            <ShareIcon className={styles.icon} />
             Eligendo. Il sistema integrato di diffusione dei dati elettorali
           </a>
         </div>

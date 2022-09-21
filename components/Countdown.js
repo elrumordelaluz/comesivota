@@ -54,7 +54,7 @@ const renderer = ({ hours, minutes, seconds, days, completed }) => {
           <strong style={{ fontSize: '1.2em' }}>
             <u>solo domenica</u> 25 settembre 2022
           </strong>
-          , <br />
+          <br />
           <strong>dalle ore 7 alle ore 23</strong>
         </p>
       </>
