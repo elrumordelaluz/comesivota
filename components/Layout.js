@@ -23,6 +23,14 @@ export default function Layout({ children }) {
             </a>
           </Link>
         </div>
+        <a
+          className={styles.smallLink}
+          href="https://www.insideframe.it/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          insideframe.it
+        </a>
       </footer>
     </div>
   )

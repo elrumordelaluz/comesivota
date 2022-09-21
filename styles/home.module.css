@@ -26,6 +26,9 @@
   display: inline-block;
   margin-top: 1em;
 }
+.link:after {
+  left: 1.5em;
+}
 
 .icon {
   width: 1em;
