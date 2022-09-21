@@ -107,12 +107,12 @@ export default function Home() {
         <div className={styles.section}>
           <p className={styles.text}>
             Sul <strong>simbolo</strong> del partito{' '}
-            <strong>e sul candidato</strong> all’uninominale
+            <strong>e sul candidato</strong> all&quot;uninominale
           </p>
           <p className={styles.text}>oppure</p>
           <p className={styles.text}>
             Sul <strong>simbolo</strong> del partito{' '}
-            <strong>e sull’elenco dei candidati </strong>
+            <strong>e sull&quot;elenco dei candidati </strong>
           </p>
           <Image src={schedaSimboloNome} />
           <Image src={schedaSimboloElenco} />
