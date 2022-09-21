@@ -66,7 +66,7 @@ export default function Home() {
       <div className={styles.section}>
         <p className={styles.text}>In ogni scheda</p>
         <h2 className={styles.subtitle}>
-          Si deve tracciare <strong>una sola "x"</strong>{' '}
+          Si deve tracciare <strong>una sola &quot;x&quot;</strong>{' '}
         </h2>
         <p className={styles.text}>
           <strong>scegliendo una delle opzioni</strong> descritte in seguito:
