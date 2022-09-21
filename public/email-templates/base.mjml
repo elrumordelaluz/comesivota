@@ -1,0 +1,30 @@
+<mjml>
+  <mj-include path="head.mjml" />
+  <mj-body>
+    <!-- <mj-include path="header.mjml" /> -->
+    <mj-section background-color="#fff">
+      <mj-column width="600px">
+        <mj-image
+          width="140px"
+          src="{{baseUrl}}/img/logo.png"
+          href="{{baseUrl}}"
+        />
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="#fff">
+      <mj-column>
+        <mj-text>{{{message}}}</mj-text>
+      </mj-column>
+    </mj-section>
+    <!-- <mj-include path="footer.mjml" /> -->
+    <mj-section background-color="#f5f6f9">
+      <mj-column>
+        <mj-text font-size="12px" color="#828282" align="center"
+          >This e-mail was sent by
+          <a href="{{baseUrl}}" class="link-nostyle">Pixeden.com</a>, Florida,
+          USA</mj-text
+        >
+      </mj-column>
+    </mj-section>
+  </mj-body>
+</mjml>

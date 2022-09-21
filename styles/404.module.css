@@ -1,0 +1,25 @@
+.wrapper {
+  color: #000;
+  background: #fff;
+  font-family: -apple-system, BlinkMacSystemFont, Roboto, 'Segoe UI',
+    'Fira Sans', Avenir, 'Helvetica Neue', 'Lucida Grande', sans-serif;
+  height: 100vh;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.logoWrapper {
+  width: 200px;
+  display: inline-block;
+  color: var(--c-green);
+}
+
+.text {
+  composes: text from './components.module.css';
+  font-weight: 300;
+  margin-top: 2em;
+  font-size: 14px;
+}

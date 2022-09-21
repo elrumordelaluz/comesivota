@@ -1,0 +1,45 @@
+.wrapper {
+  max-width: 700px;
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.section {
+  padding: 50px 0 0;
+}
+
+.title {
+  composes: title from './components.module.css';
+}
+
+.subtitle {
+  composes: subtitle from './components.module.css';
+}
+
+.text {
+  composes: text from './components.module.css';
+}
+
+.countdown {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  max-width: 300px;
+  margin: var(--spacer) auto;
+}
+.digit {
+  composes: text from './components.module.css';
+  --max: 39;
+  line-height: 1;
+}
+.digitWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background-color: var(--c-gray);
+  padding: 1em 1em;
+  border-radius: 0.5em;
+}
