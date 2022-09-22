@@ -172,6 +172,11 @@ function App({ Component, pageProps }) {
           {/* <link rel="icon" href="/favicon.svg" type="image/svg+xml" /> */}
           <link rel="manifest" href="/manifest.json" />
           <meta name="description" content={website.description} />
+
+          <meta name="twitter:card" content="summary" />
+          <meta name="twitter:title" content={website.title} />
+          <meta name="twitter:description" content={website.description} />
+          <meta name="twitter:image" content={website.image} />
           <meta property="og:title" content={website.title} />
           <meta property="og:url" content={website.url} />
           <meta property="og:type" content="website" />
